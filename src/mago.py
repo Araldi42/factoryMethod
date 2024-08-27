@@ -3,7 +3,7 @@ from .personagem import Personagem
 class Mago(Personagem):
     def __init__(self, nome : str) -> None:
         super().__init__(nome)
-        self.__forca : int = 4
+        self.__forca : int = 2
         self.__inteligencia : int = 10
         self.__destreza: int = 5
     
